@@ -281,6 +281,7 @@
         <img src="./assets/img/sponsors/ministerstvo.png" data-v-4ef8651c="">
         <img src="./assets/img/sponsors/nivam.png" data-v-4ef8651c="">
         <img src="./assets/img/sponsors/bethlen.png" data-v-4ef8651c="">
+        <img src="./assets/img/sponsors/szmcs.png" data-v-4ef8651c="">
       </div>
     </div>
       
@@ -291,68 +292,7 @@
 
   </main>
 
-  <footer id="footer" class="footer position-relative">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="">Sági cserkész</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>Ipolyság</p>
-            <p class="mt-3"><strong>Telefonszám:</strong> <span>+421 907 261 022</span></p>
-            <p><strong>E-mail:</strong> <span>27cserkeszcsapat@gmail.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hasznos linkek</h4>
-          <ul>
-            <li><a href="#">Főoldal</a></li>
-            <li><a href="#">Jelentkezés</a></li>
-            <li><a href="#">Támogatás</a></li>
-            <li><a href="#">Támogatóink</a></li>
-            <li><a href="#">Beszámolók</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Támogatóink</h4>
-          <ul>
-            <li><a href="#">Bethlen Gábor Alapítvány</a></li>
-            <li><a href="#">NIVAM</a></li>
-            <li><a href="#">Ipolyság Város Önkormányzata</a></li>
-            <li><a href="#">Szlovákiai Magyar Cserkészszövetség</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Hírlevelünk</h4>
-          <p>Iratkozzon fel hírlevelünkre, hogy mindig értesüljön a friss élménybeszámolóinkról!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Feliratkozás" disabled></div>
-            <div class="loading">Betöltés...</div>
-            <div class="error-message">Sikertelen feliratkozás!</div>
-            <div class="sent-message">Sikeres feliratkozás!</div>
-          </form>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1">27. számú Szent Imre cserkészcsapat</strong> <span>Minden jog fenntartva</span></p>
-      <div class="credits">
-        Összeállította <a href="https://g-tech.hu/">Gery Technologies</a>
-      </div>
-    </div>
-
-  </footer>
+  <?php include 'assets/template/footer.php'; ?>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
