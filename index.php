@@ -28,40 +28,8 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-  <style>
 
-        .logo-slider {
-            overflow: hidden;
-            padding: 30px 0 0 0;
-            white-space: nowrap;
-            position: relative;
-        }
-
-        .logo-slider:hover .logos-slide {
-            animation-play-state: paused;
-        }
-
-        .logos-slide {
-            display: inline-block;
-            animation: slide 45s infinite linear;
-        }
-
-        .logos-slide img {
-            width: 229px;
-            height: 104px;
-            margin: 0 40px;
-        }
-
-        @keyframes slide {
-            from {
-                transform: translateX(0);
-            }
-
-            to {
-                transform: translateX(-100%);
-            }
-        }
-    </style>
+  <?php include 'assets/template/sponsorStyle.php'; ?>
 
   <!-- =======================================================
   * Template Name: Mentor
@@ -74,26 +42,7 @@
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="">Sági cserkész</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Főoldal</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <a class="btn-getstarted" href="mailto:27szentimrecscs@gmail.com">Támogatás</a>
-
-    </div>
-  </header>
+<?php include 'assets/template/header.php'; ?>
 
   <main class="main">
 
