@@ -52,20 +52,12 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Events</h1>
-              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+              <h1>Eseményeink</h1>
+              <p class="mb-0">Cserkészcsapatunk évente rengeteg eseményen vesz részt. A fontosabb és nagyobb hangsúlyú rendezvényeinkről ezen az oldalon számolunk be.</p>
             </div>
           </div>
         </div>
       </div>
-      <nav class="breadcrumbs">
-        <div class="container">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Events</li>
-          </ol>
-        </div>
-      </nav>
     </div><!-- End Page Title -->
 
     <!-- Events Section -->
@@ -80,9 +72,9 @@
                 <img src="assets/img/events-item-1.jpg" alt="...">
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="">Introduction to webdesign</a></h5>
-                <p class="fst-italic text-center">Sunday, September 26th at 7:00 pm</p>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <h5 class="card-title"><a href="https://drive.google.com/drive/folders/12EbsGUWDpkwenzkNqFKoo6rvdnYlZjHF" target="_blank">Csapatkarácsony 2023-ban</a></h5>
+                <p class="fst-italic text-center">2023.12.19.</p>
+                <p class="card-text">Legfontosabb csapatrendezvényünk képes fotódokumentációja tekinthető meg a következő albumban.</p>
               </div>
             </div>
           </div>
@@ -92,9 +84,9 @@
                 <img src="assets/img/events-item-2.jpg" alt="...">
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="">Marketing Strategies</a></h5>
-                <p class="fst-italic text-center">Sunday, November 15th at 7:00 pm</p>
-                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+                <h5 class="card-title"><a href="https://drive.google.com/drive/folders/12D2tlOJzn3fWuWWqqJE7PNNSwSnrtGY_?usp=drive_link" target="_blank">Tanyázás Csatán</a></h5>
+                <p class="fst-italic text-center">2024.xx.xx.</p>
+                <p class="card-text">Egy remek hétvégét töltöttünk együtt Csata községen tanyázás keretein belül.</p>
               </div>
             </div>
 

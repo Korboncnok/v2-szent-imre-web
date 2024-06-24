@@ -4,7 +4,7 @@
 <div class="container footer-top">
   <div class="row gy-4">
     <div class="col-lg-4 col-md-6 footer-about">
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index" class="logo d-flex align-items-center">
         <span class="">Sági cserkész</span>
       </a>
       <div class="footer-contact pt-3">
@@ -21,7 +21,7 @@
     <div class="col-lg-2 col-md-3 footer-links">
       <h4>Hasznos linkek</h4>
       <ul>
-        <li><a href="#">Főoldal</a></li>
+        <li><a href="index">Főoldal</a></li>
         <li><a href="#">Jelentkezés</a></li>
         <li><a href="#">Támogatás</a></li>
         <li><a href="#">Támogatóink</a></li>
