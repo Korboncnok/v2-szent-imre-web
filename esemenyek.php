@@ -52,7 +52,7 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Eseményeink</h1>
+              <h1>Események</h1>
               <p class="mb-0">Cserkészcsapatunk évente rengeteg eseményen vesz részt. A fontosabb és nagyobb hangsúlyú rendezvényeinkről ezen az oldalon számolunk be.</p>
             </div>
           </div>
