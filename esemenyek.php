@@ -101,20 +101,7 @@
     <!-- Counts Section -->
     <section id="counts" class="section ">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-          
-          
 
-        <div class="row gy-3">
-          <h2>
-            <center><b>Támogatóink</b></center>
-          </h2>
-          
-
-
-        </div>
-
-      </div>
       
 <?php include 'assets/template/sponsorsList.php'; ?>
       
