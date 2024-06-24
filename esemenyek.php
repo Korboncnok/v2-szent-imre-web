@@ -85,7 +85,7 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="https://drive.google.com/drive/folders/12D2tlOJzn3fWuWWqqJE7PNNSwSnrtGY_?usp=drive_link" target="_blank">Tanyázás Csatán</a></h5>
-                <p class="fst-italic text-center">2024.xx.xx.</p>
+                <p class="fst-italic text-center">2024.04.13-15.</p>
                 <p class="card-text">Egy remek hétvégét töltöttünk együtt Csata községen tanyázás keretein belül.</p>
               </div>
             </div>
