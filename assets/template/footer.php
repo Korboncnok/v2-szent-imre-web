@@ -54,7 +54,7 @@
 </div>
 
 <div class="container copyright text-center mt-4">
-  <p>© <span>Copyright</span> <strong class="px-1">27. számú Szent Imre cserkészcsapat</strong> <span>Minden jog fenntartva</span></p>
+  <p><?php echo date(Y) ?> © <span>Copyright</span> <strong class="px-1">27. számú Szent Imre cserkészcsapat</strong> <span>Minden jog fenntartva</span></p>
   <div class="credits">
     Összeállította <a href="https://g-tech.hu/">Gery Technologies</a>
   </div>
