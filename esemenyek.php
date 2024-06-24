@@ -116,7 +116,7 @@
 
       </div>
       
-          <div class="logo-slider" data-v-4ef8651c="">
+          <div class="logo-slider" data-v-4ef8651c=""  data-aos="fade-up" data-aos-delay="100">
       <div class="logos-slide" data-v-4ef8651c="">
         <img src="./assets/img/sponsors/sahy.png" data-v-4ef8651c="">
         <img src="./assets/img/sponsors/ministerstvo.png" data-v-4ef8651c="">
