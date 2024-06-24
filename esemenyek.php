@@ -84,9 +84,9 @@
                 <img src="assets/img/events-item-2.jpg" alt="...">
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="">Marketing Strategies</a></h5>
-                <p class="fst-italic text-center">Sunday, November 15th at 7:00 pm</p>
-                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+                <h5 class="card-title"><a href="https://drive.google.com/drive/folders/12D2tlOJzn3fWuWWqqJE7PNNSwSnrtGY_?usp=drive_link" target="_blank">Tanyázás Csatán</a></h5>
+                <p class="fst-italic text-center">2024.xx.xx.</p>
+                <p class="card-text">Egy remek hétvégét töltöttünk együtt Csata községen tanyázás keretein belül.</p>
               </div>
             </div>
 
