@@ -7,12 +7,18 @@
         <h1 class="">Sági cserkész</h1>
       </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index" class="active">Főoldal</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+      <?php
+// Lekéri az aktuális oldal nevét
+$current_page = basename($_SERVER['PHP_SELF'], ".php");
+?>
+
+<nav id="navmenu" class="navmenu">
+    <ul>
+        <li><a href="index" class="<?php echo ($current_page == 'index') ? 'active' : ''; ?>">Főoldal</a></li>
+        <li><a href="esemenyek" class="<?php echo ($current_page == 'esemenyek') ? 'active' : ''; ?>">Eseményeink</a></li>
+    </ul>
+    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+</nav>
 
       <a class="btn-getstarted" href="mailto:27szentimrecscs@gmail.com">Támogatás</a>
 
