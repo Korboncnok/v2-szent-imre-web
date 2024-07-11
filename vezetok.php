@@ -64,23 +64,24 @@
       <div class="container">
 
         <div class="row gy-5">
+        <button id="enableAudio">Engedélyezze az audio lejátszást</button>
 
-          <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="100" data-audio="assets/musics/babar.mp3">
-            <div class="member-img">
-              <img src="assets/img/vezeto/reka.jpg" class="img-fluid" alt="">
-              <div class="social">
+        <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="100" data-audio="./assets/musics/babar.mp3">
+        <div class="member-img">
+            <img src="assets/img/vezeto/reka.jpg" class="img-fluid" alt="">
+            <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
                 <a href="#"><i class="bi bi-instagram"></i></a>
                 <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>
-            <div class="member-info text-center">
-              <h4>Kiss Réka</h4>
-              <span class="">táborszervezés</span>
-              <p>Réka vagyok, és nagyon sokat tudok enni. Aggódni nem kell, gyereket nem eszek.</p>
-            </div>
-          </div><!-- End Team Member -->
+        </div>
+        <div class="member-info text-center">
+            <h4>Kiss Réka</h4>
+            <span class="">táborszervezés</span>
+            <p>Réka vagyok, és nagyon sokat tudok enni. Aggódni nem kell, gyereket nem eszek.</p>
+        </div>
+    </div><!-- End Team Member -->
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img">
@@ -232,21 +233,28 @@
 
             document.addEventListener('DOMContentLoaded', (event) => {
     const playDivs = document.querySelectorAll('.playDiv');
+    
+    // A gomb hozzáadása az audio lejátszás engedélyezéséhez
+    const enableAudioButton = document.getElementById('enableAudio');
+    enableAudioButton.addEventListener('click', () => {
+        playDivs.forEach(div => {
+            const audioSrc = div.getAttribute('data-audio');
+            const audio = new Audio(audioSrc);
 
-    playDivs.forEach(div => {
-        const audioSrc = div.getAttribute('data-audio');
-        const audio = new Audio(audioSrc);
+            div.addEventListener('mouseenter', () => {
+                audio.play().catch(error => {
+                    console.error('Hiba az audio lejátszásakor:', error);
+                });
+            });
 
-        div.addEventListener('mouseenter', () => {
-            audio.play().catch(error => {
-                console.error('Hiba az audio lejátszásakor:', error);
+            div.addEventListener('mouseleave', () => {
+                audio.pause();
+                audio.currentTime = 0;
             });
         });
 
-        div.addEventListener('mouseleave', () => {
-            audio.pause();
-            audio.currentTime = 0;
-        });
+        // A gombot eltávolítjuk, miután egyszer megnyomták
+        enableAudioButton.style.display = 'none';
     });
 });
         };
