@@ -187,12 +187,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
   const playDivs = document.querySelectorAll('.playDiv');
 
   playDivs.forEach(div => {
-      // Az audio fájl URL-jének megszerzése a data-audio attribútumból
       const audioSrc = div.getAttribute('data-audio');
       const audio = new Audio(audioSrc);
 
       div.addEventListener('mouseenter', () => {
-          audio.play();
+          audio.play().catch(error => {
+              console.error('Hiba az audio lejátszásakor:', error);
+          });
       });
 
       div.addEventListener('mouseleave', () => {
