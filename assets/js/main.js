@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", function() {
 // Auto zene indítása
 document.addEventListener('DOMContentLoaded', (event) => {
   const playDivs = document.querySelectorAll('.playDiv');
-
+  
   playDivs.forEach(div => {
       const audioSrc = div.getAttribute('data-audio');
       const audio = new Audio(audioSrc);
