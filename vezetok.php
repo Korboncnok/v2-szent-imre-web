@@ -41,7 +41,7 @@
 </head>
 <body class="trainers-page">
 
-
+<?php include 'assets/template/header.php'; ?>
   <main class="main">
 
     <!-- Page Title -->
