@@ -65,7 +65,7 @@
 
         <div class="row gy-5">
 
-          <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="100" data-audio="./assets/musics/babar.mp3">
+          <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="100" data-audio="assets/musics/babar.mp3">
             <div class="member-img">
               <img src="assets/img/vezeto/reka.jpg" class="img-fluid" alt="">
               <div class="social">
@@ -229,6 +229,26 @@
               window.onload = function() {
             var copy = document.querySelector(".logos-slide").cloneNode(true);
             document.querySelector(".logo-slider").appendChild(copy);
+
+            document.addEventListener('DOMContentLoaded', (event) => {
+    const playDivs = document.querySelectorAll('.playDiv');
+
+    playDivs.forEach(div => {
+        const audioSrc = div.getAttribute('data-audio');
+        const audio = new Audio(audioSrc);
+
+        div.addEventListener('mouseenter', () => {
+            audio.play().catch(error => {
+                console.error('Hiba az audio lejátszásakor:', error);
+            });
+        });
+
+        div.addEventListener('mouseleave', () => {
+            audio.pause();
+            audio.currentTime = 0;
+        });
+    });
+});
         };
   </script>
 
