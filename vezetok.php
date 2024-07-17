@@ -76,7 +76,7 @@
         <div class="member-info text-center">
             <h4>Antal Adrianna</h4>
             <span class="">Operatív vezető</span>
-            <p>Túl a vizen egy kosár</p>
+            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
         </div>
     </div><!-- End Team Member -->
 
