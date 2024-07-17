@@ -86,7 +86,7 @@
 <!-- Start Team Member -->
 <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="200" data-audio="./assets/musics/babar.mp3">
         <div class="member-img">
-            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <img src="assets/img/vezeto/antallevi.jpg" class="img-fluid" alt="">
             <div class="social">
                 <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
@@ -95,16 +95,16 @@
             </div>
         </div>
         <div class="member-info text-center">
-            <h4>Antal Adrianna</h4>
-            <span class="">Operatív vezető</span>
-            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+            <h4>Antal Levente</h4>
+            <span class="">Őrsvezető</span>
+            <p>Kedvenc népdal:<br><i>Piros rózsa fehér rózsa a réten</i></p>
         </div>
     </div>
     <!-- End Team Member -->
      <!-- Start Team Member -->
      <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="300" data-audio="./assets/musics/babar.mp3">
         <div class="member-img">
-            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <img src="assets/img/vezeto/bazalaangi.jpg" class="img-fluid" alt="">
             <div class="social">
                 <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
@@ -113,16 +113,16 @@
             </div>
         </div>
         <div class="member-info text-center">
-            <h4>Antal Adrianna</h4>
-            <span class="">Operatív vezető</span>
-            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+            <h4>Bazala Angelika</h4>
+            <span class="">Segédőrsvezető</span>
+            <p>Kedvenc cserkészdal:<br><i>Láger Sláger</i></p>
         </div>
     </div>
     <!-- End Team Member -->
      <!-- Start Team Member -->
      <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="400" data-audio="./assets/musics/babar.mp3">
         <div class="member-img">
-            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <img src="assets/img/vezeto/kazidenis.jpg" class="img-fluid" alt="">
             <div class="social">
                 <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
@@ -131,16 +131,16 @@
             </div>
         </div>
         <div class="member-info text-center">
-            <h4>Antal Adrianna</h4>
+            <h4>Kazi Denis</h4>
             <span class="">Operatív vezető</span>
-            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+            <p>Kedvenc népdal:<br><i>NEM ISMERT</i></p>
         </div>
     </div>
     <!-- End Team Member -->
      <!-- Start Team Member -->
      <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="500" data-audio="./assets/musics/babar.mp3">
         <div class="member-img">
-            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <img src="assets/img/vezeto/dombaisebi.jpg" class="img-fluid" alt="">
             <div class="social">
                 <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
@@ -149,16 +149,16 @@
             </div>
         </div>
         <div class="member-info text-center">
-            <h4>Antal Adrianna</h4>
-            <span class="">Operatív vezető</span>
-            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+            <h4>Dombai Sebastián</h4>
+            <span class="">Őrsvezető</span>
+            <p>Kedvenc népdal:<br><i>Béreslegény, jól megrakd a szekered</i></p>
         </div>
     </div>
     <!-- End Team Member -->
      <!-- Start Team Member -->
      <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="600" data-audio="./assets/musics/babar.mp3">
         <div class="member-img">
-            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <img src="assets/img/vezeto/doncszsombor.jpg" class="img-fluid" alt="">
             <div class="social">
                 <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
@@ -167,16 +167,16 @@
             </div>
         </div>
         <div class="member-info text-center">
-            <h4>Antal Adrianna</h4>
-            <span class="">Operatív vezető</span>
-            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+            <h4>Doncs Zsombor</h4>
+            <span class="">Adminisztráció</span>
+            <p>Kedvenc népdal:<br><i>NEM ISMERT</i></p>
         </div>
     </div>
     <!-- End Team Member -->
      <!-- Start Team Member -->
      <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="700" data-audio="./assets/musics/babar.mp3">
         <div class="member-img">
-            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <img src="assets/img/vezeto/dubzsofi.jpg" class="img-fluid" alt="">
             <div class="social">
                 <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
@@ -185,8 +185,8 @@
             </div>
         </div>
         <div class="member-info text-center">
-            <h4>Antal Adrianna</h4>
-            <span class="">Operatív vezető</span>
+            <h4>Dubovská Zsófia</h4>
+            <span class="">Egészségügyi referens</span>
             <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
         </div>
     </div>
@@ -194,7 +194,7 @@
      <!-- Start Team Member -->
      <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="800" data-audio="./assets/musics/babar.mp3">
         <div class="member-img">
-            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <img src="assets/img/vezeto/flokmarek.jpg" class="img-fluid" alt="">
             <div class="social">
                 <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
@@ -203,16 +203,16 @@
             </div>
         </div>
         <div class="member-info text-center">
-            <h4>Antal Adrianna</h4>
-            <span class="">Operatív vezető</span>
-            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+            <h4>Flok Marek</h4>
+            <span class="">Segédőrsvezető</span>
+            <p>Kedvenc népdal:<br><i>Vörös dió levele</i></p>
         </div>
     </div>
     <!-- End Team Member -->
      <!-- Start Team Member -->
      <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="900" data-audio="./assets/musics/babar.mp3">
         <div class="member-img">
-            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <img src="assets/img/vezeto/gyurovicsviki.jpg" class="img-fluid" alt="">
             <div class="social">
                 <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
@@ -221,16 +221,16 @@
             </div>
         </div>
         <div class="member-info text-center">
-            <h4>Antal Adrianna</h4>
+            <h4>Gyurovics Viktória</h4>
             <span class="">Operatív vezető</span>
-            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+            <p>Kedvenc népdal:<br><i>NEM ISMERT</i></p>
         </div>
     </div>
     <!-- End Team Member -->
      <!-- Start Team Member -->
      <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="1000" data-audio="./assets/musics/babar.mp3">
         <div class="member-img">
-            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <img src="assets/img/vezeto/hajduf.jpg" class="img-fluid" alt="">
             <div class="social">
                 <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
@@ -239,9 +239,9 @@
             </div>
         </div>
         <div class="member-info text-center">
-            <h4>Antal Adrianna</h4>
-            <span class="">Operatív vezető</span>
-            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+            <h4>Hajdú Ferenc Bence</h4>
+            <span class="">Kapcsolattartás/Adminisztráció</span>
+            <p>Kedvenc népdal:<br><i>Kimegyek a doberdói harctérre</i></p>
         </div>
     </div>
     <!-- End Team Member -->
