@@ -212,7 +212,7 @@
      <!-- Start Team Member -->
      <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="900" data-audio="./assets/musics/babar.mp3">
         <div class="member-img">
-            <img src="assets/img/vezeto/gyurovicsviki.jpg" class="img-fluid" alt="">
+            <img src="assets/img/vezeto/gyurovicsvik.jpg" class="img-fluid" alt="">
             <div class="social">
                 <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
