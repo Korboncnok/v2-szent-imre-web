@@ -71,6 +71,8 @@
             <div class="social">
                 <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
+
             </div>
         </div>
         <div class="member-info text-center">
