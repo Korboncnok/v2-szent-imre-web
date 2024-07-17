@@ -65,6 +65,7 @@
 
         <div class="row gy-5">
 
+<!-- Start Team Member -->
         <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="100" data-audio="./assets/musics/babar.mp3">
         <div class="member-img">
             <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
@@ -80,92 +81,171 @@
             <span class="">Operatív vezető</span>
             <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
         </div>
-    </div><!-- End Team Member -->
+    </div>
+    <!-- End Team Member -->
+<!-- Start Team Member -->
+<div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="200" data-audio="./assets/musics/babar.mp3">
+        <div class="member-img">
+            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img">
-              <img src="assets/img/vezeto/sebi.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>
-            <div class="member-info text-center">
-              <h4>Dombai Sebastián</h4>
-              <span class="">őrsvezető</span>
-              <p>Nem csak jó vers és dalszerző vagyok, minden lányt az ujjaim köré csavarok. Nem hiszed? Tali este a körletben!</p>
-            </div>
-          </div><!-- End Team Member -->
+        </div>
+        <div class="member-info text-center">
+            <h4>Antal Adrianna</h4>
+            <span class="">Operatív vezető</span>
+            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+     <!-- Start Team Member -->
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="300" data-audio="./assets/musics/babar.mp3">
+        <div class="member-img">
+            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
-            <div class="member-img">
-              <img src="assets/img/vezeto/anna.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>
-            <div class="member-info text-center">
-              <h4>Klukon Anna</h4>
-              <span class="">segédőrsvezető</span>
-              <p>Késsel szoktam aludni. Biztos, ami biztos.</p>
-            </div>
-          </div><!-- End Team Member -->
+        </div>
+        <div class="member-info text-center">
+            <h4>Antal Adrianna</h4>
+            <span class="">Operatív vezető</span>
+            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+     <!-- Start Team Member -->
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="400" data-audio="./assets/musics/babar.mp3">
+        <div class="member-img">
+            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
-            <div class="member-img">
-              <img src="assets/img/vezeto/barbi.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>
-            <div class="member-info text-center">
-              <h4>Murin Barbara</h4>
-              <span class="">vezető</span>
-              <p>Én vagyok a gyanta! Én vagyok a gyanta!</p>
-            </div>
-          </div><!-- End Team Member -->
+        </div>
+        <div class="member-info text-center">
+            <h4>Antal Adrianna</h4>
+            <span class="">Operatív vezető</span>
+            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+     <!-- Start Team Member -->
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="500" data-audio="./assets/musics/babar.mp3">
+        <div class="member-img">
+            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
-            <div class="member-img">
-              <img src="assets/img/vezeto/levi.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>
-            <div class="member-info text-center">
-              <h4>Antal Levente</h4>
-              <span class="">viski elit<br></span>
-              <p>Esztert úgyis meghódítom majd!</p>
-            </div>
-          </div><!-- End Team Member -->
+        </div>
+        <div class="member-info text-center">
+            <h4>Antal Adrianna</h4>
+            <span class="">Operatív vezető</span>
+            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+     <!-- Start Team Member -->
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="600" data-audio="./assets/musics/babar.mp3">
+        <div class="member-img">
+            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
-            <div class="member-img">
-              <img src="assets/img/vezeto/viki.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>
-            <div class="member-info text-center">
-              <h4>Píri Viktória</h4>
-              <span class="">rajparancsnok</span>
-              <p>Sziasztok, kiscserkészt kilora árulok, most akciós! Gyertek és vegyétek.</p>
+        </div>
+        <div class="member-info text-center">
+            <h4>Antal Adrianna</h4>
+            <span class="">Operatív vezető</span>
+            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+     <!-- Start Team Member -->
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="700" data-audio="./assets/musics/babar.mp3">
+        <div class="member-img">
+            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
+
             </div>
-          </div><!-- End Team Member -->
+        </div>
+        <div class="member-info text-center">
+            <h4>Antal Adrianna</h4>
+            <span class="">Operatív vezető</span>
+            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+     <!-- Start Team Member -->
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="800" data-audio="./assets/musics/babar.mp3">
+        <div class="member-img">
+            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
+
+            </div>
+        </div>
+        <div class="member-info text-center">
+            <h4>Antal Adrianna</h4>
+            <span class="">Operatív vezető</span>
+            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+     <!-- Start Team Member -->
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="900" data-audio="./assets/musics/babar.mp3">
+        <div class="member-img">
+            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
+
+            </div>
+        </div>
+        <div class="member-info text-center">
+            <h4>Antal Adrianna</h4>
+            <span class="">Operatív vezető</span>
+            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+     <!-- Start Team Member -->
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="1000" data-audio="./assets/musics/babar.mp3">
+        <div class="member-img">
+            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
+
+            </div>
+        </div>
+        <div class="member-info text-center">
+            <h4>Antal Adrianna</h4>
+            <span class="">Operatív vezető</span>
+            <p>Kedvenc népdal:<br><i>Túl a vizen egy kosár</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+   
 
         </div>
 
