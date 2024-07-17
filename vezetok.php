@@ -67,18 +67,16 @@
 
         <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="100" data-audio="./assets/musics/babar.mp3">
         <div class="member-img">
-            <img src="assets/img/vezeto/reka.jpg" class="img-fluid" alt="">
+            <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
             <div class="social">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
             </div>
         </div>
         <div class="member-info text-center">
-            <h4>Kiss Réka</h4>
-            <span class="">táborszervezés</span>
-            <p>Réka vagyok, és nagyon sokat tudok enni. Aggódni nem kell, gyereket nem eszek.</p>
+            <h4>Antal Adrianna</h4>
+            <span class="">Operatív vezető</span>
+            <p>Túl a vizen egy kosár</p>
         </div>
     </div><!-- End Team Member -->
 
