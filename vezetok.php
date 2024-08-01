@@ -66,7 +66,7 @@
         <div class="row gy-5">
 
 <!-- Start Team Member -->
-        <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="100" data-audio="./assets/musics/babar.mp3">
+        <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="100" data-audio=" ">
         <div class="member-img">
             <img src="assets/img/vezeto/adrika.jpg" class="img-fluid" alt="">
             <div class="social">
@@ -84,7 +84,7 @@
     </div>
     <!-- End Team Member -->
 <!-- Start Team Member -->
-<div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="200" data-audio="./assets/musics/babar.mp3">
+<div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="200" data-audio=".">
         <div class="member-img">
             <img src="assets/img/vezeto/antallevi.jpg" class="img-fluid" alt="">
             <div class="social">
@@ -102,7 +102,7 @@
     </div>
     <!-- End Team Member -->
      <!-- Start Team Member -->
-     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="300" data-audio="./assets/musics/babar.mp3">
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="300" data-audio=".">
         <div class="member-img">
             <img src="assets/img/vezeto/bazalaangi.jpg" class="img-fluid" alt="">
             <div class="social">
@@ -120,7 +120,7 @@
     </div>
     <!-- End Team Member -->
      <!-- Start Team Member -->
-     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="400" data-audio="./assets/musics/babar.mp3">
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="400" data-audio=".">
         <div class="member-img">
             <img src="assets/img/vezeto/kazidenis.jpg" class="img-fluid" alt="">
             <div class="social">
@@ -138,7 +138,7 @@
     </div>
     <!-- End Team Member -->
      <!-- Start Team Member -->
-     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="500" data-audio="./assets/musics/babar.mp3">
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="500" data-audio=".">
         <div class="member-img">
             <img src="assets/img/vezeto/dombaisebi.jpg" class="img-fluid" alt="">
             <div class="social">
@@ -156,7 +156,7 @@
     </div>
     <!-- End Team Member -->
      <!-- Start Team Member -->
-     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="600" data-audio="./assets/musics/babar.mp3">
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="600" data-audio=".">
         <div class="member-img">
             <img src="assets/img/vezeto/doncszsombor.jpg" class="img-fluid" alt="">
             <div class="social">
@@ -174,7 +174,7 @@
     </div>
     <!-- End Team Member -->
      <!-- Start Team Member -->
-     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="700" data-audio="./assets/musics/babar.mp3">
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="700" data-audio=".">
         <div class="member-img">
             <img src="assets/img/vezeto/dubzsofi.jpg" class="img-fluid" alt="">
             <div class="social">
@@ -192,7 +192,7 @@
     </div>
     <!-- End Team Member -->
      <!-- Start Team Member -->
-     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="800" data-audio="./assets/musics/babar.mp3">
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="800" data-audio=".">
         <div class="member-img">
             <img src="assets/img/vezeto/flokmarek.jpg" class="img-fluid" alt="">
             <div class="social">
@@ -210,7 +210,7 @@
     </div>
     <!-- End Team Member -->
      <!-- Start Team Member -->
-     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="900" data-audio="./assets/musics/babar.mp3">
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="900" data-audio=".">
         <div class="member-img">
             <img src="assets/img/vezeto/gyurovicsvik.jpg" class="img-fluid" alt="">
             <div class="social">
@@ -228,7 +228,7 @@
     </div>
     <!-- End Team Member -->
      <!-- Start Team Member -->
-     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="1000" data-audio="./assets/musics/babar.mp3">
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="1000" data-audio=".">
         <div class="member-img">
             <img src="assets/img/vezeto/hajduf.jpg" class="img-fluid" alt="">
             <div class="social">

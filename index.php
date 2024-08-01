@@ -54,7 +54,7 @@
 
       <div class="container">
         <h2 data-aos="fade-up" data-aos-delay="100" class="">Cserkész vagyok,<br>egy szebb világért dolgozom</h2>
-        <p data-aos="fade-up" data-aos-delay="200">27. számú Szent Imre cserkészcsapat</p>
+        <p data-aos="fade-up" data-aos-delay="200">27. számú Szent Imre cserkészcsapat, Ipolyság</p>
         <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
           <a href="mailto:27szentimrecscs@gmail.com" class="btn-get-started">Jelentkezés</a>
         </div>
@@ -264,26 +264,6 @@
               window.onload = function() {
             var copy = document.querySelector(".logos-slide").cloneNode(true);
             document.querySelector(".logo-slider").appendChild(copy);
-
-            document.addEventListener('DOMContentLoaded', (event) => {
-    const playDivs = document.querySelectorAll('.playDiv');
-
-    playDivs.forEach(div => {
-        const audioSrc = div.getAttribute('data-audio');
-        const audio = new Audio(audioSrc);
-
-        div.addEventListener('mouseenter', () => {
-            audio.play().catch(error => {
-                console.error('Hiba az audio lejátszásakor:', error);
-            });
-        });
-
-        div.addEventListener('mouseleave', () => {
-            audio.pause();
-            audio.currentTime = 0;
-        });
-    });
-});
         };
   </script>
 
