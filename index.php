@@ -100,11 +100,11 @@
 
 <div class="row gy-4">
 
-  <div class="col-rg-6 order-1 order-rg-2" data-aos="fade-up" data-aos-delay="100">
+  <div class="col-lg-6 order-1 order-rg-2" data-aos="fade-up" data-aos-delay="100">
     <img src="assets/img/tabori1.png" class="img-fluid" alt="">
   </div>
 
-  <div class="col-rg-6 order-2 order-rg-1 content" data-aos="fade-up" data-aos-delay="200">
+  <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
     <h3>Kalandra fel! Ismerd meg a cserkész életet</h3>
     <p class="fst-italic">
       Kalandra vágysz? A cserkészet tökéletes lehetőség arra, hogy új kihívásokat élj át, miközben értékes
