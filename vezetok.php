@@ -385,6 +385,132 @@
         </div>
     </div>
     <!-- End Team Member -->
+     <!-- Start Team Member -->
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="1900" data-audio=".">
+        <div class="member-img">
+            <img src="assets/img/vezeto/lomenzsofi.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
+
+            </div>
+        </div>
+        <div class="member-info text-center">
+            <h4>Lomen Zsófia</h4>
+            <span class="">Segédőrsvezető</span>
+            <p>Kedvenc népdal:<br><i>Piros rózsa fehér rózsa a réten</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+          <!-- Start Team Member -->
+          <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="2000" data-audio=".">
+        <div class="member-img">
+            <img src="assets/img/vezeto/meszaroscaroline.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
+
+            </div>
+        </div>
+        <div class="member-info text-center">
+            <h4>Mészáros Caroline</h4>
+            <span class="">Operatív vezető</span>
+            <p>Kedvenc népdal:<br><i>Már minálunk babám</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+               <!-- Start Team Member -->
+               <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="2100" data-audio=".">
+        <div class="member-img">
+            <img src="assets/img/vezeto/molnarmatyi.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
+
+            </div>
+        </div>
+        <div class="member-info text-center">
+            <h4>Molnár Mátyás</h4>
+            <span class="">Segédőrsvezető</span>
+            <p>Kedvenc népdal:<br><i>Daltól hangos</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+                    <!-- Start Team Member -->
+                    <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="2200" data-audio=".">
+        <div class="member-img">
+            <img src="assets/img/vezeto/murinbarbi.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
+
+            </div>
+        </div>
+        <div class="member-info text-center">
+            <h4>Murin Barbi</h4>
+            <span class="">Operatív vezető</span>
+            <p>Kedvenc népdal:<br><i>Félre bánat, félre bú</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+    <!-- Start Team Member -->
+    <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="2300" data-audio=".">
+        <div class="member-img">
+            <img src="assets/img/vezeto/murindani.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
+
+            </div>
+        </div>
+        <div class="member-info text-center">
+            <h4>Murin Dániel</h4>
+            <span class="">Őrsvezető</span>
+            <p>Kedvenc népdal:<br><i>Kimegyek a doberdói harctérre</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+         <!-- Start Team Member -->
+    <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="2400" data-audio=".">
+        <div class="member-img">
+            <img src="assets/img/vezeto/ph.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
+
+            </div>
+        </div>
+        <div class="member-info text-center">
+            <h4>Nyustin Péter</h4>
+            <span class="">Operatív vezető</span>
+            <p>Kedvenc népdal:<br><i>Akkor szép az erdő</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+              <!-- Start Team Member -->
+    <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="2500" data-audio=".">
+        <div class="member-img">
+            <img src="assets/img/vezeto/palffyzsu.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
+
+            </div>
+        </div>
+        <div class="member-info text-center">
+            <h4>Pálffy Zsuzsanna</h4>
+            <span class="">Segédőrsvezető</span>
+            <p>Kedvenc népdal:<br><i>Jajj, de szépen harangoznak</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
    
 
         </div>
