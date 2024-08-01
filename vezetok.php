@@ -245,6 +245,60 @@
         </div>
     </div>
     <!-- End Team Member -->
+     <!-- Start Team Member -->
+     <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="1100" data-audio=".">
+        <div class="member-img">
+            <img src="assets/img/vezeto/jusztinelek.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
+
+            </div>
+        </div>
+        <div class="member-info text-center">
+            <h4>Jusztin Elek</h4>
+            <span class="">Segédőrsvezető</span>
+            <p>Kedvenc népdal:<br><i>A csitári hegyek alatt</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+          <!-- Start Team Member -->
+          <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="1200" data-audio=".">
+        <div class="member-img">
+            <img src="assets/img/vezeto/jusztinlehel.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
+
+            </div>
+        </div>
+        <div class="member-info text-center">
+            <h4>Jusztin Lehel</h4>
+            <span class="">Segédőrsvezető</span>
+            <p>Kedvenc népdal:<br><i>Ej, az igaz szerelem</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
+               <!-- Start Team Member -->
+               <div class="col-lg-4 col-md-6 member playDiv" data-aos="fade-up" data-aos-delay="1300" data-audio=".">
+        <div class="member-img">
+            <img src="assets/img/vezeto/babar.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href="https://www.facebook.com/saagscout"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/szentimrecscs/"><i class="bi bi-instagram"></i></a>
+                <a href="mailto:kapcsolat@sagicserkesz.sk"><i class="bi bi-envelope"></i></a>
+
+            </div>
+        </div>
+        <div class="member-info text-center">
+            <h4>Katona Attila</h4>
+            <span class="">Csapatparancsnok</span>
+            <p>Kedvenc népdal:<br><i>Én az éjjel nem aludtam egy órát</i></p>
+        </div>
+    </div>
+    <!-- End Team Member -->
    
 
         </div>
