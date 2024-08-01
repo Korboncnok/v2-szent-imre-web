@@ -72,9 +72,6 @@
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
             <img src="assets/img/tabori1.png" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-6 order-1 order-rg-2" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/tabori1.png" class="img-fluid" alt="">
-          </div>
 
           <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
             <h3>Kalandra fel! Ismerd meg a cserkész életet</h3>
@@ -98,6 +95,37 @@
         </div>
 
       </div>
+
+      <div class="container">
+
+<div class="row gy-4">
+
+  <div class="col-rg-6 order-1 order-rg-2" data-aos="fade-up" data-aos-delay="100">
+    <img src="assets/img/tabori1.png" class="img-fluid" alt="">
+  </div>
+
+  <div class="col-rg-6 order-2 order-rg-1 content" data-aos="fade-up" data-aos-delay="200">
+    <h3>Kalandra fel! Ismerd meg a cserkész életet</h3>
+    <p class="fst-italic">
+      Kalandra vágysz? A cserkészet tökéletes lehetőség arra, hogy új kihívásokat élj át, miközben értékes
+      készségeket sajátítasz el. Túrázás, táborozás, közösségi szolgálat és sok más izgalmas tevékenység vár
+      rád!
+    </p>
+    <ul>
+      <li><i class="bi bi-check-circle"></i> <span>Készségek, amik egy életen át elkísérnek!</span></li>
+      <li><i class="bi bi-check-circle"></i> <span>Barátságok, melyek egy életre szólnak!</span></li>
+      <li><i class="bi bi-check-circle"></i> <span>Fejlődés és felelősségvállalás a cserkészettel!</span></li>
+      <li> <span>A cserkész nevelés célja nem csak a személyes fejlődés. Arra is tanít minket, hogy vegyük át a
+          felelősséget közösségünkért és környezetünkért. Légy te is részese ennek a nemes küldetésnek, és
+          változtass a világon!</span></li>
+
+    </ul>
+    <a href="mailto:27szentimrecscs@gmail.com" class="read-more"><span>Jelentkezés</span><i class="bi bi-arrow-right"></i></a>
+  </div>
+
+</div>
+
+</div>
 
     </section><!-- /About Section -->
 
