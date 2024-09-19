@@ -52,8 +52,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Eseményeink</h1>
-              <p class="mb-0">Cserkészcsapatunk évente rengeteg eseményen vesz részt. A fontosabb és nagyobb hangsúlyú rendezvényeinkről ezen az oldalon számolunk be.</p>
+              <h1>Galéria</h1>
+              <p class="mb-0">Cserkészcsapatunk évente rengeteg eseményen vesz részt. A fontosabb és nagyobb hangsúlyú rendezvényeinkről ezen az oldalon látható néhány fotó. További képek elérhetőek a facebook oldalunkon!</p>
             </div>
           </div>
         </div>
@@ -70,11 +70,6 @@
             <div class="card">
               <div class="card-img">
                 <img src="assets/img/events-item-1.jpg" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="https://drive.google.com/drive/folders/12EbsGUWDpkwenzkNqFKoo6rvdnYlZjHF" target="_blank">Csapatkarácsony 2023-ban</a></h5>
-                <p class="fst-italic text-center">2023.12.19.</p>
-                <p class="card-text">Legfontosabb csapatrendezvényünk képes fotódokumentációja tekinthető meg a következő albumban.</p>
               </div>
             </div>
           </div>
