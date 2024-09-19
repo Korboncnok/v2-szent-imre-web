@@ -273,7 +273,7 @@
         </div>
         <div class="member-info text-center">
             <h4>Jusztin Lehel</h4>
-            <span class="">Segédőrsvezető</span>
+            <span class="">Őrsvezető</span>
             <p>Kedvenc népdal:<br><i>Ej, az igaz szerelem</i></p>
         </div>
     </div>
