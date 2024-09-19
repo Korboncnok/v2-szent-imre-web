@@ -1515,6 +1515,7 @@ section,
   padding: 0 30px;
   margin-bottom: 60px;
   position: relative;
+  overflow: hidden; /* Hozzáadott */
 }
 
 .events .card-img {
@@ -1527,7 +1528,7 @@ section,
 
 .events .card-img img {
   max-width: 100%;
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease; /* Hozzáadott */
 }
 
 .events .card-body {
@@ -1539,6 +1540,23 @@ section,
   margin-top: -60px;
   transition: 0.3s;
 }
+
+/* Hozzáadott */
+.events .card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.3s ease;
+  z-index: 1;
+}
+.events .card:hover::before {
+  background: rgba(0, 0, 0, 0.5); /* Sötétebb háttér */
+}
+/* Hozzáadott */
 
 .events .card-title {
   font-weight: 700;
@@ -1557,6 +1575,7 @@ section,
 
 .events .card:hover img {
   transform: scale(1.1);
+  z-index: 2; /* Hogy a kép az előtérbe kerüljön */
 }
 
 .events .card:hover .card-body {
