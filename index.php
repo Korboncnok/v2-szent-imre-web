@@ -54,9 +54,9 @@
 
       <div class="container">
         <h2 data-aos="fade-up" data-aos-delay="100" class="">Cserkész vagyok,<br>egy szebb világért dolgozom</h2>
-        <p data-aos="fade-up" data-aos-delay="200">27. számú Szent Imre cserkészcsapat</p>
+        <p data-aos="fade-up" data-aos-delay="200">27. számú Szent Imre cserkészcsapat, Ipolyság</p>
         <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-          <a href="mailto:27szentimrecscs@gmail.com" class="btn-get-started">Jelentkezés</a>
+          <a href="mailto:kapcsolat@sagicserkesz.sk" class="btn-get-started">Jelentkezés</a>
         </div>
       </div>
 
@@ -89,12 +89,41 @@
                   változtass a világon!</span></li>
 
             </ul>
-            <a href="mailto:27szentimrecscs@gmail.com" class="read-more"><span>Jelentkezés</span><i class="bi bi-arrow-right"></i></a>
+            <a href="mailto:kapcsolat@sagicserkesz.sk" class="read-more"><span>Jelentkezés</span><i class="bi bi-arrow-right"></i></a>
           </div>
 
         </div>
 
       </div>
+
+<br><br>
+
+<div class="container">
+
+<div class="row gy-4">
+
+  <div class="col-lg-6 order-1 order-rg-2" data-aos="fade-up" data-aos-delay="100">
+    <img src="assets/img/tabori2.jpg" class="img-fluid" alt="">
+  </div>
+
+  <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
+    <h3>Mit ad számodra egy cserkésztábor?</h3>
+    <p class="fst-italic">
+    A táborozók új barátságokat köthetnek és megtanulhatják, hogyan működjenek együtt csapatban. A közös élmények és kihívások erősítik a közösségi érzést és a csapatszellemet.
+    </p>
+    <ul>
+      <li><i class="bi bi-check-circle"></i> <span>A táborozók különféle feladatokat vállalnak, amelyek fejlesztik az önállóságukat és felelősségérzetüket.</span></li>
+      <li><i class="bi bi-check-circle"></i> <span>A táborozás rengeteg szórakozási lehetőséget kínál, beleértve a játékokat, sporttevékenységeket, kirándulásokat és különféle kreatív programokat.</span></li>
+      <li><i class="bi bi-check-circle"></i> <span>A cserkésztáborokban a résztvevők vezetői szerepeket is vállalhatnak, ami fejleszti a vezetői készségeiket és a felelősségtudatukat.</span></li>
+      <li> <span>A cserkészek megtanulhatnak különféle túlélési technikákat, mint például tűzrakás, csomózás, tájékozódás térkép és iránytű segítségével, valamint elsősegélynyújtás.</span></li>
+
+    </ul>
+    <a href="mailto:kapcsolat@sagicserkesz.sk" class="read-more"><span>Jelentkezés</span><i class="bi bi-arrow-right"></i></a>
+  </div>
+
+</div>
+
+</div>
 
     </section><!-- /About Section -->
 
@@ -107,7 +136,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="31" data-purecounter-duration="1"
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
                 class="purecounter"></span>
               <p class="">Éve</p>
             </div>
@@ -115,7 +144,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="109" data-purecounter-duration="1"
+              <span data-purecounter-start="0" data-purecounter-end="111" data-purecounter-duration="1"
                 class="purecounter"></span>
               <p class="">Fő</p>
             </div>
@@ -123,7 +152,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1"
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
                 class="purecounter">+</span>
               <p class="">Őrs</p>
             </div>

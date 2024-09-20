@@ -181,3 +181,24 @@ document.addEventListener("DOMContentLoaded", function() {
     // Az első kép betöltése
     updateImage();
 });
+
+// Auto zene indítása
+document.addEventListener('DOMContentLoaded', (event) => {
+  const playDivs = document.querySelectorAll('.playDiv');
+  
+  playDivs.forEach(div => {
+      const audioSrc = div.getAttribute('data-audio');
+      const audio = new Audio(audioSrc);
+
+      div.addEventListener('mouseenter', () => {
+          audio.play().catch(error => {
+              console.error('Hiba az audio lejátszásakor:', error);
+          });
+      });
+
+      div.addEventListener('mouseleave', () => {
+          audio.pause();
+          audio.currentTime = 0;
+      });
+  });
+});

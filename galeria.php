@@ -66,26 +66,119 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/events-item-1.jpg" alt="...">
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/events-item-2.jpg" alt="...">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title"><a href="https://drive.google.com/drive/folders/12D2tlOJzn3fWuWWqqJE7PNNSwSnrtGY_?usp=drive_link" target="_blank">Tanyázás Csatán</a></h5>
-                <p class="fst-italic text-center">2024.xx.xx.</p>
-                <p class="card-text">Egy remek hétvégét töltöttünk együtt Csata községen tanyázás keretein belül.</p>
-              </div>
-            </div>
 
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <img src="assets/img/gallery/galeria-1.jpg" alt="Fénykép helye.">
+              </div>
+            </div>
           </div>
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+              <img src="assets/img/gallery/galeria-2.jpg" alt="Fénykép helye.">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+              <img src="assets/img/gallery/galeria-3.jpg" alt="Fénykép helye.">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+              <img src="assets/img/gallery/galeria-4.jpg" alt="Fénykép helye.">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+              <img src="assets/img/gallery/galeria-5.jpg" alt="Fénykép helye.">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+              <img src="assets/img/gallery/galeria-6.jpg" alt="Fénykép helye.">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+              <img src="assets/img/gallery/galeria-7.jpg" alt="Fénykép helye.">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+              <img src="assets/img/gallery/galeria-8.jpg" alt="Fénykép helye.">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+              <img src="assets/img/gallery/galeria-9.jpg" alt="Fénykép helye.">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+              <img src="assets/img/gallery/galeria-10.jpg" alt="Fénykép helye.">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+              <img src="assets/img/gallery/galeria-11.jpg" alt="Fénykép helye.">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+              <img src="assets/img/gallery/galeria-12.jpg" alt="Fénykép helye.">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+              <img src="assets/img/gallery/galeria-13.jpg" alt="Fénykép helye.">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+              <img src="assets/img/gallery/galeria-14.jpg" alt="Fénykép helye.">
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
