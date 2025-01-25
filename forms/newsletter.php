@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         } else {
             // Sikeres válasz küldése
             http_response_code(200);
-            echo json_encode(['message' => 'Sikeres feliratkozás!']);
+            echo json_encode(['message' => 'Sikeres feliratkozás! ERROR: ' . $response]);
         }
     } else {
         // Ha az e-mail cím hiányzik
