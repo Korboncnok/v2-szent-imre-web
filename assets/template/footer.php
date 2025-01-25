@@ -72,14 +72,21 @@ document.querySelector('.php-email-form').addEventListener('submit', function (e
     const sentMessage = form.querySelector('.sent-message');
 
     const element = document.getElementById("email");
-    console.log(element.checkValidity());
-    if (element.checkValidity() === false) {
-        // Ha az e-mail cím nem érvényes
-        errorMessage.textContent = 'Kérjük, adjon meg egy érvényes e-mail címet!';
-        errorMessage.style.display = 'block';
-        sentMessage.style.display = 'none'; // Sikeres üzenet elrejtése
-        return;
-    }
+const email = element.value;
+
+// Reguláris kifejezés az e-mail cím ellenőrzésére, beleértve a TLD-t is
+const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+
+if (!emailPattern.test(email)) {
+    // Ha az e-mail cím nem érvényes
+    errorMessage.textContent = 'Kérjük, adjon meg egy érvényes e-mail címet!';
+    errorMessage.style.display = 'block';
+    sentMessage.style.display = 'none'; // Sikeres üzenet elrejtése
+    return;
+}
+
+// Ha az e-mail cím érvényes
+console.log("Az e-mail cím érvényes.");
 
     // Betöltés állapot bekapcsolása
     loading.style.display = 'block';
