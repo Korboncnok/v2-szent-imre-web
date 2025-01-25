@@ -40,16 +40,17 @@
     </div>
 
     <div class="col-lg-4 col-md-12 footer-newsletter">
-      <h4>Hírlevelünk</h4>
-      <h4>Hírlevél</h4>
-      <p>Iratkozzon fel hírlevelünkre, hogy mindig értesüljön a friss élménybeszámolóinkról!</p>
-      <form action="forms/newsletter.php" method="post" class="php-email-form">
-        <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Feliratkozás" disabled></div>
-        <div class="loading">Betöltés...</div>
-        <div class="error-message">Sikertelen feliratkozás!</div>
-        <div class="sent-message">Sikeres feliratkozás!</div>
-      </form>
-    </div>
+    <h4>Hírlevelünk</h4>
+<p>Iratkozzon fel hírlevelünkre, hogy mindig értesüljön a friss élménybeszámolóinkról!</p>
+<form action="forms/newsletter.php" method="post" class="php-email-form">
+  <div class="newsletter-form">
+    <input type="email" name="email">
+    <input type="submit" value="Feliratkozás" disabled>
+  </div>
+  <div class="loading">Betöltés...</div>
+  <div class="error-message">Sikertelen feliratkozás!</div>
+  <div class="sent-message">Sikeres feliratkozás!</div>
+</form>
 
   </div>
 </div>
@@ -60,6 +61,42 @@
     Összeállította <a href="https://g-tech.hu/">Gery Technologies</a>
   </div>
 </div>
+<script>
+document.querySelector('.php-email-form').addEventListener('submit', function (e) {
+    e.preventDefault(); // Megakadályozza az űrlap alapértelmezett elküldését
 
+    const form = e.target;
+    const formData = new FormData(form);
+    const loading = form.querySelector('.loading');
+    const errorMessage = form.querySelector('.error-message');
+    const sentMessage = form.querySelector('.sent-message');
+
+    // Betöltés állapot bekapcsolása
+    loading.style.display = 'block';
+    errorMessage.style.display = 'none';
+    sentMessage.style.display = 'none';
+
+    // Adatok küldése a szerverre
+    fetch(form.action, {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        loading.style.display = 'none';
+        if (data.message === 'Sikeres feliratkozás!') {
+            sentMessage.style.display = 'block';
+        } else {
+            errorMessage.textContent = data.message;
+            errorMessage.style.display = 'block';
+        }
+    })
+    .catch(() => {
+        loading.style.display = 'none';
+        errorMessage.textContent = 'Hiba történt a kérés során.';
+        errorMessage.style.display = 'block';
+    });
+});
+</script>
 </footer>
 
