@@ -73,7 +73,7 @@ document.querySelector('.php-email-form').addEventListener('submit', function (e
 
     const element = document.getElementById("email");
     console.log(element.checkValidity());
-    if (!element.checkValidity()) {
+    if (element.checkValidity() === false) {
         // Ha az e-mail cím nem érvényes
         errorMessage.textContent = 'Kérjük, adjon meg egy érvényes e-mail címet!';
         errorMessage.style.display = 'block';
