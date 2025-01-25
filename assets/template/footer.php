@@ -42,9 +42,9 @@
     <div class="col-lg-4 col-md-12 footer-newsletter">
     <h4>Hírlevelünk</h4>
 <p>Iratkozzon fel hírlevelünkre, hogy mindig értesüljön a friss élménybeszámolóinkról!</p>
-<form action="../../forms/newsletter.php" method="post" class="php-email-form">
+<form action="forms/newsletter.php" method="post" class="php-email-form">
   <div class="newsletter-form">
-    <input type="email" name="email">
+    <input type="email" name="email" required>
     <input type="submit" value="Feliratkozás">
   </div>
   <div class="loading">Betöltés...</div>
@@ -84,17 +84,20 @@ document.querySelector('.php-email-form').addEventListener('submit', function (e
     .then(response => response.json())
     .then(data => {
         loading.style.display = 'none';
-        if (data.message === 'Sikeres feliratkozás!') {
+        if (data.message && data.message.includes('Sikeres feliratkozás')) {
             sentMessage.style.display = 'block';
+            errorMessage.style.display = 'none'; // Hibauzenet elrejtése
         } else {
-            errorMessage.textContent = data.message;
+            errorMessage.textContent = data.message || 'Ismeretlen hiba történt.';
             errorMessage.style.display = 'block';
+            sentMessage.style.display = 'none'; // Sikeres üzenet elrejtése
         }
     })
     .catch(() => {
         loading.style.display = 'none';
         errorMessage.textContent = 'Hiba történt a kérés során.';
         errorMessage.style.display = 'block';
+        sentMessage.style.display = 'none'; // Sikeres üzenet elrejtése
     });
 });
 </script>
