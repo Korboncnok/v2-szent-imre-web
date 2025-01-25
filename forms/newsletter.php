@@ -10,7 +10,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Ellenőrizze, hogy az e-mail cím meg van-e adva
     if (isset($_POST['email']) && !empty($_POST['email'])) {
         $email = $_POST['email']; // Űrlapból érkező e-mail cím
-        $listIds = [2]; // Lista azonosítók (pl. 2-es azonosítójú lista)
 
         // cURL inicializálása
         $curl = curl_init();
@@ -25,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           CURLOPT_CUSTOMREQUEST => "POST",
           CURLOPT_POSTFIELDS => json_encode([
             'email' => $email,
-            'listIds' => $listIds,
+            'listIds' => [2], // Lista azonosítók
             'updateEnabled' => false
           ]),
           CURLOPT_HTTPHEADER => [
