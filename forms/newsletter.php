@@ -1,9 +1,10 @@
 <?php
+require_once('pudding.php');
 // Hibakezelés bekapcsolása
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$apiKey = getenv('BREVO_API_KEY'); // Brevo API kulcs
+# $apiKey = getenv('BREVO_API_KEY'); // Brevo API kulcs
 
 // Ellenőrizze, hogy az űrlap elküldése POST kéréssel történt-e
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -29,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           ]),
           CURLOPT_HTTPHEADER => [
             "accept: application/json",
-            "api-key: $apiKey",
+            "api-key: $key",
             "content-type: application/json"
           ],
         ]);
