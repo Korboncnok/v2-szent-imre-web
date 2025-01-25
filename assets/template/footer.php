@@ -81,21 +81,30 @@ document.querySelector('.php-email-form').addEventListener('submit', function (e
         method: 'POST',
         body: formData
     })
-    .then(response => response.json())
+    .then(response => {
+        if (!response.ok) {
+            // Ha a válasz státuszkód nem 200-299 között van, akkor hiba történt
+            throw new Error('Hiba történt a kérés során.');
+        }
+        return response.json();
+    })
     .then(data => {
         loading.style.display = 'none';
         if (data.message && data.message.includes('Sikeres feliratkozás')) {
+            // Sikeres válasz esetén
+            sentMessage.textContent = data.message;
             sentMessage.style.display = 'block';
             errorMessage.style.display = 'none'; // Hibauzenet elrejtése
         } else {
+            // Ha a válasz nem tartalmazza a sikeres üzenetet
             errorMessage.textContent = data.message || 'Ismeretlen hiba történt.';
             errorMessage.style.display = 'block';
             sentMessage.style.display = 'none'; // Sikeres üzenet elrejtése
         }
     })
-    .catch(() => {
+    .catch(error => {
         loading.style.display = 'none';
-        errorMessage.textContent = 'Hiba történt a kérés során.';
+        errorMessage.textContent = error.message || 'Hiba történt a kérés során.';
         errorMessage.style.display = 'block';
         sentMessage.style.display = 'none'; // Sikeres üzenet elrejtése
     });
