@@ -71,6 +71,16 @@ document.querySelector('.php-email-form').addEventListener('submit', function (e
     const errorMessage = form.querySelector('.error-message');
     const sentMessage = form.querySelector('.sent-message');
 
+    const element = document.getElementById("email");
+    console.log(element.checkValidity());
+    if (!element.checkValidity()) {
+        // Ha az e-mail cím nem érvényes
+        errorMessage.textContent = 'Kérjük, adjon meg egy érvényes e-mail címet!';
+        errorMessage.style.display = 'block';
+        sentMessage.style.display = 'none'; // Sikeres üzenet elrejtése
+        return;
+    }
+
     // Betöltés állapot bekapcsolása
     loading.style.display = 'block';
     errorMessage.style.display = 'none';
