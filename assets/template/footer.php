@@ -40,7 +40,7 @@
     </div>
 
     <div class="col-lg-4 col-md-12 footer-newsletter">
-      <h4>Hírlevelünk</h4>
+      <h4>Hírlevél</h4>
       <p>Iratkozzon fel hírlevelünkre, hogy mindig értesüljön a friss élménybeszámolóinkról!</p>
       <form action="forms/newsletter.php" method="post" class="php-email-form">
         <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Feliratkozás" disabled></div>
