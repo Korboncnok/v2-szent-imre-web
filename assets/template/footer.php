@@ -44,7 +44,7 @@
 <p>Iratkozzon fel hírlevelünkre, hogy mindig értesüljön a friss híreinkről!</p>
 <form action="../../forms/newsletter.php" method="post" class="php-email-form">
   <div class="newsletter-form">
-    <input type="email" name="email" required>
+    <input type="email" name="email" id="email" required>
     <input type="submit" value="Feliratkozás">
   </div>
   <div class="loading">Feliratkozás folyamatban...</div>
