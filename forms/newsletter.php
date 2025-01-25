@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           CURLOPT_CUSTOMREQUEST => "POST",
           CURLOPT_POSTFIELDS => json_encode([
             'email' => $email,
-            'listIds' => [2], // Lista azonosítók
+            'listIds' => [5], // Lista azonosítók
             'updateEnabled' => false
           ]),
           CURLOPT_HTTPHEADER => [
