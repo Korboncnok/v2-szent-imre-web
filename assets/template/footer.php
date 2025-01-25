@@ -45,7 +45,7 @@
 <form action="forms/newsletter.php" method="post" class="php-email-form">
   <div class="newsletter-form">
     <input type="email" name="email">
-    <input type="submit" value="Feliratkozás" disabled>
+    <input type="submit" value="Feliratkozás">
   </div>
   <div class="loading">Betöltés...</div>
   <div class="error-message">Sikertelen feliratkozás!</div>
