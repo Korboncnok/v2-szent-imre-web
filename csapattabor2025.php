@@ -70,7 +70,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/17_Zsx4OUeQ2uFX2ZINkM4BeU-NeNINcT/preview" style="width: 100%; min-height: 600px;" allowfullscreen></iframe>
+                  <iframe class="embed-responsive-item w-100" src="https://drive.google.com/file/d/17_Zsx4OUeQ2uFX2ZINkM4BeU-NeNINcT/preview" style="aspect-ratio: 16/9; border: none;" allowfullscreen></iframe>
                 </div>
               </div>
             </div>
