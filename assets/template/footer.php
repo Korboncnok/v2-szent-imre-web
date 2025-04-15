@@ -41,11 +41,11 @@
 
     <div class="col-lg-4 col-md-12 footer-newsletter">
     <h4>Hírlevelünk</h4>
-<p>Iratkozzon fel hírlevelünkre, hogy mindig értesüljön a friss híreinkről!</p>
+<p>Iratkozzon fel hírlevelünkre, hogy mindig értesüljön a friss híreinkről! Figyelem! A feliratkozás jelenleg nem elérhető.</p>
 <form action="../../forms/newsletter.php" method="post" class="php-email-form">
   <div class="newsletter-form">
-    <input type="email" name="email" id="email" required>
-    <input type="submit" value="Feliratkozás">
+    <input type="email" name="email" id="email" required disabled>
+    <input type="submit" value="Feliratkozás" disabled>
   </div>
   <div class="loading">Feliratkozás folyamatban...</div>
   <div class="error-message">Sikertelen feliratkozás!</div>

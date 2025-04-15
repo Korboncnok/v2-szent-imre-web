@@ -419,7 +419,7 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 1px solid rgba(var(--default-color-rgb), 0.5);
+  border: 0px solid rgba(var(--default-color-rgb), 0.5);
   font-size: 16px;
   color: rgba(var(--default-color-rgb), 0.7);
   margin-right: 10px;
