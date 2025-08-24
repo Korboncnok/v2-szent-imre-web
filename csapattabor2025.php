@@ -712,21 +712,14 @@
     <section id="counts" class="section">
       <div class="container" data-aos="fade-up" data-aos-delay="100" style="background: none !important; border: none !important; box-shadow: none !important;">
         <div style="background: linear-gradient(rgba(10, 75, 143, 0.15), rgba(10, 75, 143, 0.2)); backdrop-filter: blur(10px); border: 1px solid rgba(83, 164, 255, 0.2); border-radius: 8px; padding: 25px; box-shadow: 0 0 25px rgba(10, 75, 143, 0.15), inset 0 0 30px rgba(83, 164, 255, 0.05); margin-bottom: 20px;">
-          <div class="row gy-3">
-            <h2 class="text-center mb-4" style="color: #83c3ff !important;">
-              <b>Támogatóink</b>
-            </h2>
-          </div>
-          
-          <div class="logo-slider" data-v-4ef8651c="" style="margin-top: 10px; padding: 0 15px;">
-            <div class="logos-slide" data-v-4ef8651c="">
-              <img src="./assets/img/sponsors/sahy.png" data-v-4ef8651c="">
-              <img src="./assets/img/sponsors/ministerstvo.png" data-v-4ef8651c="">
-              <img src="./assets/img/sponsors/nivam.png" data-v-4ef8651c="">
-              <img src="./assets/img/sponsors/bethlen.png" data-v-4ef8651c="">
-              <img src="./assets/img/sponsors/szmcs.png" data-v-4ef8651c="">
+
+            <div style="margin-top: 10px; padding: 0 15px;">
+                <img src="./assets/img/sponsors/Erb-text_horizontalne_invert_modry.png" data-v-4ef8651c="" style="display:block;margin:auto;max-width:100%;max-height:150px">
+                <h3 class="text-center mb-4" style="color: #83c3ff !important;padding:25px">
+                    <b>Realizované s finančnou podporou Nitrianskeho Samosprávneho Kraja</b>
+                </h3>
             </div>
-          </div>
+            
         </div>
       </div>
     </section><!-- /Counts Section -->
