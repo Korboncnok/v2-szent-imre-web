@@ -514,50 +514,7 @@
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
               <h1>Csapattábor 2025</h1>
-              <div id="countdown" class="mb-0">
-                <div class="countdown-item">
-                  <span id="days">00</span>
-                  <span class="label">nap</span>
-                </div>
-                <div class="countdown-item">
-                  <span id="hours">00</span>
-                  <span class="label">óra</span>
-                </div>
-                <div class="countdown-item">
-                  <span id="minutes">00</span>
-                  <span class="label">perc</span>
-                </div>
-                <div class="countdown-item">
-                  <span id="seconds">00</span>
-                  <span class="label">másodperc</span>
-                </div>
-              </div>
-
-              <script>
-                // Set the target date
-                const targetDate = new Date('2025-07-04T00:00:00').getTime();
-
-                // Update countdown every second
-                const countdown = setInterval(function() {
-                  const now = new Date().getTime();
-                  const distance = targetDate - now;
-
-                  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                  document.getElementById('days').innerHTML = String(days).padStart(2, '0');
-                  document.getElementById('hours').innerHTML = String(hours).padStart(2, '0');
-                  document.getElementById('minutes').innerHTML = String(minutes).padStart(2, '0');
-                  document.getElementById('seconds').innerHTML = String(seconds).padStart(2, '0');
-
-                  if (distance < 0) {
-                    clearInterval(countdown);
-                    document.getElementById('countdown').innerHTML = "A tábor elkezdődött!";
-                  }
-                }, 1000);
-              </script>
+              <p class="fs-5 mt-3">A tábor sikeresen lezajlott!</p>
             </div>
           </div>
         </div>
@@ -572,14 +529,14 @@
         <!-- Információs konténerek -->
         <div class="row mb-5">
           <div class="col-12">
-            <h3 class="text-center mb-4" style="color: #83c3ff !important;">Tábori információk</h3>
+            <h3 class="text-center mb-4" style="color: #83c3ff !important;">Tábori információk - Visszatekintő</h3>
             <!-- Kapcsolható információs konténer - egyszerűsített struktúra -->
             <div class="info-container" style="background: linear-gradient(rgba(10, 75, 143, 0.08), rgba(10, 75, 143, 0.12)); backdrop-filter: blur(10px); border: 1px solid rgba(83, 164, 255, 0.2); border-radius: 8px; padding: 25px; box-shadow: 0 0 25px rgba(10, 75, 143, 0.15), inset 0 0 30px rgba(83, 164, 255, 0.05); margin-bottom: 20px;">
               <!-- Saját egyedi tab fejlécek -->
               <div class="info-tabs mb-4">
                 
                 <button id="tabori-info-btn" class="info-tab-button active" onclick="switchInfoTab('tabori-info')">Tábori&nbsp;infók</button>
-                <button id="jelentkezes-btn" class="info-tab-button" onclick="switchInfoTab('jelentkezes')">Jelentkezés</button>
+                <button id="jelentkezes-btn" class="info-tab-button" onclick="switchInfoTab('jelentkezes')">Dokumentumok</button>
               </div>
               
               <div id="info-tab-content">
@@ -587,23 +544,23 @@
                 
                 <!-- Camp information section - Dark theme -->
                 <div id="tabori-info-content" class="info-tab-pane active">
-                  <h4 style="margin-bottom: 1.5rem;">Tábori tudnivalók</h4>
+                  <h4 style="margin-bottom: 1.5rem;">Tábori információk</h4>
                   <div class="row">
                     <div class="col-md-6 mb-3">
                       <div class="card" style="background: linear-gradient(rgba(10, 75, 143, 0.1), rgba(10, 75, 143, 0.15)) !important; border: 1px solid rgba(83, 164, 255, 0.2);">
                         <div class="card-body">
                            <h5 style="display: block !important; margin: 1rem 0;"><i class="bi bi-geo-alt me-2" style="color: #83c3ff;"></i>Helyszín</h5>
-                          <p>Bény (Biňa)</p> 
-                          
+                          <p>Ipolyvisk</p>
+
                           <h5><i class="bi bi-calendar-check me-2" style="color: #83c3ff;"></i>Időpontok</h5>
                           <p><strong>Tábor kezdete:</strong> 2025. július 4. (péntek)<br>
                           <strong>Tábor vége:</strong> 2025. július 13. (vasárnap)</p>
-                          
+
                           <h5><i class="bi bi-signpost-2 me-2" style="color: #83c3ff;"></i>Gyülekezés</h5>
-                          <p>10:45-kor az ipolysági vasútállomás előtti buszmegállóban</p>
-                          
-                          <h5><i class="bi bi-box-arrow-in-right me-2" style="color: #83c3ff;"></i>Érkezés</h5>
-                          <p>12:00-ra az ipolysági vasútállomás előtti buszmegállóba</p>
+                          <p>A gyülekezés az ipolysági vasútállomás előtti buszmegállóban volt</p>
+
+                          <h5><i class="bi bi-box-arrow-in-right me-2" style="color: #83c3ff;"></i>Hazaérkezés</h5>
+                          <p>Az ipolysági vasútállomás előtti buszmegállóba történt</p>
                         </div>
                       </div>
                     </div>
@@ -611,10 +568,8 @@
                       <div class="card" style="background: linear-gradient(rgba(10, 75, 143, 0.1), rgba(10, 75, 143, 0.15)) !important; border: 1px solid rgba(83, 164, 255, 0.2);">
                         <div class="card-body">
                           <h5><i class="bi bi-cash-coin me-2" style="color: #83c3ff;"></i>Részvételi díj</h5>
-                          <p>100€ / fő<br>
-                          <small>A részvételi díj leadása egy összegben történik.<br>
-                          <strong>Leadási határidő:</strong> június 10.</small></p>
-                          
+                          <p>100€ / fő</p>
+
                           <h5><i class="bi bi-people-fill me-2" style="color: #83c3ff;"></i>Résztvevő csapatok</h5>
                           <ul>
                             <li>72. sz. Szent Lőrinc (Felsőszeli)</li>
@@ -632,41 +587,19 @@
                   </div>
                   <div class="alert alert-info mt-3" style="background: rgba(10, 75, 143, 0.1) !important; border: 1px solid rgba(83, 164, 255, 0.3); color: #d9eaff !important;">
                     <i class="bi bi-info-circle me-2"></i>
-                    Jelentkezni június 10-ig lehet. A szülői/fertőzésmentességi nyilatkozatot az induláskor fogjuk összegyűjteni. További kérdésekkel keresd az őrsvezetőd!
+                    A csapattábor 2025 sikeresen lezajlott Ipolyvisken. Köszönjük minden résztvevőnek a részvételt!
                   </div>
                 </div>
                 
                 <!-- Jelentkezés fül -->
                 <div id="jelentkezes-content" class="info-tab-pane">
-                  <h4>Jelentkezés a táborba</h4>
+                  <h4>Dokumentumok</h4>
                   <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                       <div class="card mb-3" style="background: linear-gradient(rgba(10, 75, 143, 0.1), rgba(10, 75, 143, 0.15)) !important; border: 1px solid rgba(83, 164, 255, 0.2);">
                         <div class="card-body">
-                          <h5><i class="bi bi-pencil-square me-2" style="color: #83c3ff;"></i>Hogyan jelentkezhetsz?</h5>
-                          <ul>
-                          
-                            <li>Személyesen, őrsvezetődnél</li>
-                           
-                          </ul>
-                          
-                          <h5><i class="bi bi-file-earmark-text me-2" style="color: #83c3ff;"></i>Mit kell leadnod?</h5>
-                          <ul>
-                            <li>Kitöltött jelentkezési lap</li>
-                            <li>Szülői nyilatkozat</li>
-                            <li>Egészségügyi nyilatkozat</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="card mb-3" style="background: linear-gradient(rgba(10, 75, 143, 0.1), rgba(10, 75, 143, 0.15)) !important; border: 1px solid rgba(83, 164, 255, 0.2);">
-                        <div class="card-body">
-                          <h5><i class="bi bi-calendar-event me-2" style="color: #83c3ff;"></i>Fontos határidők</h5>
-                          <p><strong>Jelentkezési határidő:</strong> 2025. június 10.</p>
-                          <p><strong>Részvételi díj befizetési határidő:</strong> 2025. június 10.</p>
-                          
-                          <h5 class="mt-4"><i class="bi bi-file-earmark-arrow-down me-2" style="color: #83c3ff;"></i>Letölthető dokumentumok</h5>
+                          <h5><i class="bi bi-file-earmark-arrow-down me-2" style="color: #83c3ff;"></i>Tábori dokumentumok</h5>
+                          <p>A táborhoz használt dokumentumok letölthetők:</p>
                           <ul class="list-unstyled">
                             <li class="mb-2">
                               <a href="assets/docs/camp2025/felszerelési_lista.pdf" class="btn btn-outline-primary btn-sm w-100 text-start" download>
@@ -695,7 +628,7 @@
                   </div>
                   <div class="alert alert-info mt-3" style="background: rgba(10, 75, 143, 0.1) !important; border: 1px solid rgba(83, 164, 255, 0.3); color: #d9eaff !important;">
                     <i class="bi bi-info-circle me-2"></i>
-                    Kérdéseid vannak? Írj a <a href="mailto:gery@sagicserkesz.sk">gery@sagicserkesz.sk</a> címre vagy hívd a +421 918 033 232 telefonszámot!
+                    Kérdéseid vannak a táborral kapcsolatban? Írj a <a href="mailto:gery@sagicserkesz.sk">gery@sagicserkesz.sk</a> címre!
                   </div>
                 </div>
               </div>

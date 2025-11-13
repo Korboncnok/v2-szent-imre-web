@@ -14,10 +14,10 @@ $current_page = basename($_SERVER['PHP_SELF'], ".php");
 
 <nav id="navmenu" class="navmenu">
     <ul>
-        <li><a href="index" class="<?php echo ($current_page == 'index') ? 'active' : ''; ?>">Főoldal</a></li>
-        <li><a href="csapattabor2025" class="<?php echo ($current_page == 'csapattabor2025') ? 'active' : ''; ?>">Csapattábor 2025</a></li>
-        <!-- <li><a href="vezetok" class="<?php echo ($current_page == 'vezetok') ? 'active' : ''; ?>">Vezetőink</a></li> -->
-        <li><a href="galeria" class="<?php echo ($current_page == 'galeria') ? 'active' : ''; ?>">Galéria</a></li>
+        <li><a href="index.php" class="<?php echo ($current_page == 'index') ? 'active' : ''; ?>">Főoldal</a></li>
+        <li><a href="./csapattabor2025.php" class="<?php echo ($current_page == 'csapattabor2025') ? 'active' : ''; ?>">Csapattábor 2025</a></li>
+        <!-- <li><a href="vezetok.php" class="<?php echo ($current_page == 'vezetok') ? 'active' : ''; ?>">Vezetőink</a></li> -->
+        <li><a href="galeria.php" class="<?php echo ($current_page == 'galeria') ? 'active' : ''; ?>">Galéria</a></li>
         <li><a href="https://vp2.sagicserkesz.sk/" class="<?php echo ($current_page == 'vp2') ? 'active' : ''; ?>" target="_blank">VP2</a></li>
     </ul>
     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
